@@ -20,14 +20,12 @@ public class Solution1 {
 		}
 		return answer;
 	}
-}
 
-class Main {
 	public static void main(String[] args) {
 		Solution1 solution = new Solution1();
 
 		String[] babbling = {"aya", "yee", "u", "maa", "wyeoo"};
 		System.out.println(solution.solution(babbling));
 	}
-
 }
+

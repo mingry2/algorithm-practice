@@ -5,10 +5,10 @@ public class Solution2 {
 	public int solution(int[] common) {
 		int answer = 0;
 
-		if(common[2]-common[1] == common[1]-common[0]) // 등차 수열 (+1)
+		if(common[2]-common[1] == common[1]-common[0]) // 등차 수열 (+동일한 숫자)
 			return common[common.length-1] + common[2] - common[1]; // = 5
 		else
-			return common[common.length-1] * (common[2]/common[1]);
+			return common[common.length-1] * (common[2]/common[1]); // 등비 수열 (*동일한 숫자)
 
 	}
 
